@@ -38,8 +38,7 @@ $( document ).ready(function() {
             topic.pop(animal);
             displayGifButtons();
             return false;
-        });
-    
+        });    
     }
     
     // function that displays the gifs
@@ -85,7 +84,7 @@ $( document ).ready(function() {
     }
     
     
-    //list of already created ladies
+    
     displayGifButtons();
     addNewButton();
     removeLastButton();
